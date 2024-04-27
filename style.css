@@ -5,17 +5,24 @@
 }
 
 #personajes {
-    /* Complete el CSS aqui */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .personaje {
-/* Complete el CSS aqui */
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
 }
 
 .personaje__nombre {
-/* Complete el CSS aqui */
+color: blue;
 }
 
 .personaje__imagen {
-/* Complete el CSS aqui */
+    width: 200px;
+    height: 200px;
 }
